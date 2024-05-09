@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#guia {
+    width: 40%;
+    height: 100%;
+    background-color: gray;
+
+}
+
+#logo-nav h1 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(12, 12, 196);
+}
+
+.imagem-logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagem-logo img {
+    width: 100%;
+    height: 280px;
+}
+
+#lista-botao {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    list-style-type: none;
+
+}
+
+span {
+    text-decoration: underline;
+}
+
+#lista-botao li a {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+#lista-botao li a:hover {
+    color: rgb(12, 12, 196);
+    transition: 0.8s;
+}
+
+.imagem-jogo img{
+    width: 300px;
+    height: 300px;
+
+}
+main{
+    width: 100%;
+    
+    background-image: url(../img/Captura\ de\ tela\ de\ 2024-05-07\ 20-39-48.png);
+    
+}
+.lista-jogos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 1fr 1fr ;  
+    padding: 0 20px;
+    gap: 10px;
+    place-items: center;
+}
+
+.box-jogo h2 a{
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    text-decoration: none;
+}
+.box-jogo h2 a:hover{
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    text-decoration: none;
+    font-size: 30px;
+}
