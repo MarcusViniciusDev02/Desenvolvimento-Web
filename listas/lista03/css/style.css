@@ -3,24 +3,31 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-
+html{
+    width: 100%;
+    height: 100%;
+}
 body {
     display: flex;
-    width: 100%;
-    height: 100vh;
-}
-
-#guia {
-    width: 40%;
-    height: 100%;
     background-color: gray;
+    overflow-x: hidden;
+}
+.guia {
+    width: 1px;
+    height: 100%;
 
+}
+.guia:hover{
+    width: 40%;
+    transition: 0.6s;
+    
 }
 
 #logo-nav h1 {
     text-align: center;
     font-style: italic;
     color: rgb(12, 12, 196);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .imagem-logo {
@@ -56,6 +63,7 @@ span {
     text-decoration: none;
     color: black;
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -69,11 +77,15 @@ span {
     height: 300px;
 
 }
-main{
+#menu-principal{
     width: 100%;
-    
     background-image: url(../img/Captura\ de\ tela\ de\ 2024-05-07\ 20-39-48.png);
     
+}
+.indica-menu{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
 }
 .lista-jogos{
     display: grid;
@@ -86,12 +98,23 @@ main{
 
 .box-jogo h2 a{
     color: white;
-    text-shadow: 3px 3px 1px black;
     text-decoration: none;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .box-jogo h2 a:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+.descricao-jogo{
+    background-color: black;
     color: white;
-    text-shadow: 3px 3px 1px black;
-    text-decoration: none;
-    font-size: 30px;
+}
+
+.audio-site{
+    position: absolute;
+    right: -10000px;
 }
