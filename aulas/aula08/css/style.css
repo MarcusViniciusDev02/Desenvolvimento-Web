@@ -1,0 +1,12 @@
+#conteudo-principal{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
